@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    /* height: 500px; */
+    /* width: 1025px; */
+    background: skyblue;
+    /* margin: 100px auto; */
+    /* padding-left: 50px; */
+    /* padding-top: 45px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-card
+{
+    height: 395px;
+    width: 200px;
+    background: transparent;
+    
+    margin: 50px 0px 50px  45px;
+}
+.card
+{
+    height: 330px;
+    width: 200px;
+    background: white;
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
+    /* border: 2px solid transparent; */
+    border-radius: 10px;
+
+
+}
+.carf .image
+{
+    height: 200px;
+    width: 200px;
+}
+.card img
+{
+    height: 200px;
+    width: 200px;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oJtiFEErrKD_XIgHEwXNEfN_KEmqqfC4ffBiEz1EmrfbBtfQCa2OO7h4T84hhuBlX44&usqp=CAU); */
+    /* background-size: 100% 100%; */
+    border-radius: 10px;
+    
+}
+.card .text
+{
+    height: 150px;
+    width: 200px;
+    /* background: greenyellow; */
+    padding: 10px 10px 0 10px;
+}
+.main .card .text .na 
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main .card .text .na p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    font-weight: bold;
+}
+.main .card .text .na .pa
+{
+    color: red;
+}
+.main .card .text .na .pb
+{
+    font-weight: 100;
+    font-size: 10px;
+    color: gray;
+}
+.main .card .text .cirmain 
+{
+    height: 30px;
+    margin-top: 10px;
+    /* background-color: rgb(149, 149, 153); */
+    display: flex;
+}
+.main .card .text .cirmain .circle 
+{
+    height: 30px;
+    width: 100px;
+    
+    display: flex;
+    align-items: center;
+}
+.main .card .text .cirmain .circle .round
+{
+    height: 25px;
+    width: 25px;
+    border: 3px solid;
+    border-radius: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main .card .text .cirmain .circle .ra
+{
+    
+    color: gray;
+}
+.main .card .text .cirmain .circle .rb
+{
+    margin-left: 5px;
+    color: red;
+}
+.main .card .text .cirmain .circle .rd
+{
+    margin-left: 5px;
+    color: skyblue;
+}
+.main .card .text .cirmain .circle .rc
+{
+    margin-left: 5px;
+}
+.main .card .text .starb
+{
+    height: 30px;
+    /* background-color: tan; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    
+}
+.main .card .text .starb .buy
+{
+    font-size: 24px;
+    color: skyblue;
+}
+
+.modayoff
+{ 
+    height: 50px;
+    width: 200px;
+    background: indigo;
+    /* margin-left: 50px; */
+    margin-top: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.modayoff .left
+{
+    height: 50px;
+    width: 130px;
+    background: white;
+    text-align: center;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+    border-radius: 10px 0 0 10px;
+}
+.modayoff .left .g
+{
+    font-size: 10px;
+}
+.modayoff .left .ga
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.modayoff .right
+{
+    height: 50px;
+    width: 70px;
+    /* background: blanchedalmond; */
+    text-align: center;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+.card, .modayoff
+{
+    box-shadow: 0 0 20px gray;
+}
